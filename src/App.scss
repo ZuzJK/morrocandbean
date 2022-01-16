@@ -1,0 +1,37 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+
+:root{
+  --primary-700:#09002A;
+  --primary-600: #281e4d;
+
+  --neutral-100: #fff;
+
+  --card-h: 300px;
+}
+body{
+  text-align: center;
+  background-color: var(--primary-700);
+  color: var(--neutral-100);
+}
+a{
+  text-decoration: none;
+}
+.btn{
+  
+  position: relative;
+  display: block;
+    line-height: 73px;
+    min-height: 83px;
+    width: 330px;
+    padding: 0 15px;
+    background-image: url(./assets/img/others/btn-bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+    color: #ffffff;
+    //border: #ddd 20px solid;
+    font-size: 23px;
+    font-weight: 700;
+    
+}

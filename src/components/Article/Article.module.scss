@@ -1,0 +1,30 @@
+
+:root{
+    --article-gap: 160px;
+}
+
+
+.title{
+
+    text-transform: uppercase;
+    //margin-bottom: calc(var(--article-gap)/4);
+}
+
+.content{
+    padding: 25px;
+    border: 4px var(--primary-600) solid;
+    border-radius: 38px;
+    background-color: var(--primary-700);
+    margin-top: calc(var(--article-gap)/3);
+    margin-bottom: var(--article-gap);
+}
+
+.img{
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 1600px) {
+    .img{
+        
+    }
+  }
