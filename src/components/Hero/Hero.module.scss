@@ -5,8 +5,14 @@
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    background-color: #dad;
-    background-image: url(../../assets/img/bg/hero-position-img.webp),
-    url(../../assets/img/others/daily_speedpaint_90___haunted_house_by_daisanvisart_daxacx0-fullview.jpg);
-    background-size: 50px, auto;
+    background-image: url(../../assets/img/bg/hero-bg1.webp)/*,url(../../assets/img/bg/hero-position-img.webp),
+    url(../../assets/img/others/daily_speedpaint_90___haunted_house_by_daisanvisart_daxacx0-fullview.jpg)*/;
+    
+}
+.lead{
+    font-family: "Metal Mania", cursive;
+    font-size: 5rem;
+}
+.img{
+
 }
