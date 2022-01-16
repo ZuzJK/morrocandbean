@@ -7,15 +7,23 @@
   --neutral-100: #fff;
 
   --card-h: 300px;
+
+  --font-clr: var(--neutral-100);
 }
 body{
   text-align: center;
   background-color: var(--primary-700);
-  color: var(--neutral-100);
+  color: var(--font-clr);
+  scroll-behavior: smooth;
 }
 a{
   text-decoration: none;
+  color: var(--font-clr);
 }
+li{
+  list-style: none;
+}
+
 .btn{
   
   position: relative;
@@ -29,7 +37,7 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 9;
-    color: #ffffff;
+    
     //border: #ddd 20px solid;
     font-size: 23px;
     font-weight: 700;
