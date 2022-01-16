@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.scss';
 import Hero  from './components/Hero/Hero';
 import Article from './components/Article/Article';
 import Events from './components/Events/Events';
+import Footer from './components/Footer/Footer';
 import article from './data/article';
-const a = "<br/>";
+
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       }
       <Events />
       </div>
-
+      <Footer />
     </div>
   );
 }
